@@ -5,5 +5,3 @@
 5.git diff –cachedHEAD~1显示暂存区与历史版本库最新提交第一父提交的差异
 6.git diff HEAD HEAD~2显示HEAD指向的历史提交和其第二父提交之间的差异
 7.git diff HEAD HEAD~2 -- a.txt显示HEAD指向的历史提交和其第二父提交中a.txt之间的差异   命令的格式：git diff [<options>] [<commit> [<commit>]] [--] [<path>...]
-
-

@@ -2,6 +2,7 @@
 2.git checkout -- fileName  撤销工作区fileName这个文件的修改  未添加到缓存区
 3.git checkout -- * 撤销工作区所有文件的修改  未添加到缓存区
 
+
 4.git checkout file.txt 将缓存区的文件还原到工作区
 5.git checkout file.txt file1.txt 将多个缓存区的文件还原到工作区
 6.git checkout . 将所有的缓存区的文件还原到工作区
