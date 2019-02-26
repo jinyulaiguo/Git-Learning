@@ -1,7 +1,3 @@
-tets---addd
-tets---addd
-test-aaa
-test-aaa
-test-aaa
-TEST-AAA
-test--ooo
+冲突的解决：
+问题：新建一个分支，分支上的文件A.TXT文件进行了修改，同时远程的文件A.TXT也进行了修改。则代码就会冲突
+解决：
