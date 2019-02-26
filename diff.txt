@@ -1,0 +1,7 @@
+1.git diff显示工作区与暂存区的差异
+2.git diff --cached显示暂存区与历史版本库的差异
+3.git diff HEAD~2显示工作区与最新提交第二父提交的差异   ---git diff HEAD~n 表示和最新第几次提交的差异
+4.git diff HEAD~2 --a.txt显示工作区与最新提交第二父提交中a.txt文件差异
+5.git diff –cachedHEAD~1显示暂存区与历史版本库最新提交第一父提交的差异
+6.git diff HEAD HEAD~2显示HEAD指向的历史提交和其第二父提交之间的差异
+7.git diff HEAD HEAD~2 -- a.txt显示HEAD指向的历史提交和其第二父提交中a.txt之间的差异   命令的格式：git diff [<options>] [<commit> [<commit>]] [--] [<path>...]

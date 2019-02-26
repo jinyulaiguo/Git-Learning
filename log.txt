@@ -1,1 +1,9 @@
- 1.git log --oneline 只显示头信息（这个比较关键的是，对于每一次的提交都应该进行明显的备注，方便后期代码的走读）
+1.git log --oneline 只显示头信息（这个比较关键的是，对于每一次的提交都应该进行明显的备注，方便后期代码的走读）
+2.查看某个文件的所有的提交记录
+	git log -- fileName 
+3.查看某个文件的某个内容是什么时候添加的,谁添加的？
+	git log -1 -- fileName --grep="test--ooo" 
+4.查看日志的条数限制  git log -n
+5.将日志的条数显示为一条 git log --oneline
+6.每次提交对应的文件改动   git log --name-status
+7.查看自己每次的提交  $ git log --author yourname  扩展：查看自己每次提交及文件修改 git log --name-status --author yourname
