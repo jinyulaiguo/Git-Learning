@@ -1,3 +1,22 @@
 冲突的解决：
 问题：新建一个分支，分支上的文件A.TXT文件进行了修改，同时远程的文件A.TXT也进行了修改。则代码就会冲突
 解决：
+	merged的方法：
+		当合并分支时遇到错误或者冲突，分支旁边会多出“|MERGING”这个东西
+		有这个状态存在时，会导致后面想要再合并的时候提示如下
+		所以需要先取消这次合并，使用“git merge --abort”命令
+	
+	取消某次merge的合并：
+	
+		git revert commit_id
+		//如果commit_id是merge节点的话,-m是指定具体哪个提交点
+		git revert commit_id -m 1
+		//接着就是解决冲突
+		git add -A
+		git commit -m ".."
+		git revert commit_id -m 2
+		//接着就是解决冲突
+		git add -A
+		git commit -m ".."
+		git push
+
