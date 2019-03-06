@@ -1,0 +1,10 @@
+1.添加上游仓库：
+	git remote add upstream [upstream_url]
+2.fetch 之：
+	git fetch upstream
+3.切换到本地master分支：
+	git checkout master
+4.将upstream/master merge到 本地master分支：
+	git merge upstream/master
+5.同时别忘了push到自己的github仓库：
+	git push origin master
