@@ -1,0 +1,5 @@
+1. 有一个很严重的概念问题，就是仓库和分支的概念。一个仓库会有多个分支，但是不能从本地建立仓库，推送到远程。这个问题浪费了一个多小时的时间。--问题应该不是这个！！！！
+2. 本地建立分支：git init
+3. 将修改文件添加到分支上  git add ---> git commit
+4. 建立一个远程的仓库，在远程直接建立
+5. git remote add origin https://github.com/jinyulaiguo/JavaBasedLearning.git
